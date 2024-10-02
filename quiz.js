@@ -33,23 +33,6 @@ const submitButton = document.getElementById('submit-answer');
 submitButton.addEventListener('click', checkAnswer)
 const feedbackElement = document.getElementById('feedback');
 
-function startQuiz(){
-    currentQuestionIndex = 0;
-    score = 0;
-    submitButton.innerHTML = "Submit Answer";
-    showQuestion();
-
-    currentQuestion.answers.forEach(answer =>{
-        const button = document.createElement("button");
-        button.innerHTML = answer.text;
-        button.classList.add("btn")
-        answerButtons.appendchild(button);
-        if(answer.correct){
-            button.dataset.correct = answer.correct
-        }
-        button.addEventListener("click", selectAnswer);
-    });
-}
 
 function userAnswer(){
     const submitButton = 4;
