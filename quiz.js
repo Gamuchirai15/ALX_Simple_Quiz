@@ -3,7 +3,12 @@ function checkAnswer() {
     return correctAnswer;
 }
 
-const name = document.querySelector('quiz');
+function userAnswer() {
+    const userAnswer = value
+    return userAnswer;
+ }
+
+let name = document.querySelector('quiz');
 
 const question = [
    {
@@ -15,11 +20,6 @@ const question = [
        ]
    }
 ]
-
-function userAnswer() {
-   const userAnswer = value
-   return userAnswer;
-}
 
 if(correctAnswer === userAnswer) {
    feedback = ('Correct! Well done.');
