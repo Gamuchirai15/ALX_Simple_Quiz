@@ -52,11 +52,11 @@ function startQuiz(){
 }
 
 function userAnswer(){
-    const selectedBtn = 4;
-    const isCorrect = selectedBtn.dataset.correct === "true";
+    const submitButton = 4;
+    const isCorrect = submitButton.dataset.correct === "true";
     if(isCorrect){
-        selectedBtn.classList.add("Correct! Well done")
+        submitButton.classList.add("Correct! Well done");
     }else{
-        selectedBtn.classList.add("That's incorrect. Try again!")
+        submitButton.classList.add("That's incorrect. Try again!");
     }
 }
