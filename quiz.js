@@ -16,17 +16,6 @@ const question = [
     }
 ]
 
-function userAnswer() {
-    const userAnswer = value
-    return userAnswer;
-}
-
-if(correctAnswer === userAnswer) {
-    console.log('Correct! Well done.');
-} else {
-    console.log("That's incorrect. Try again!");
-}
-
 const containerElement = document.getElementById('quiz-container');
 const questionElement = document.getElementById('quiz-question');
 const submitButton = document.getElementById('submit-answer');
@@ -43,3 +32,4 @@ function userAnswer(){
         submitButton.classList.add("That's incorrect. Try again!");
     }
 }
+
