@@ -22,9 +22,9 @@ function userAnswer() {
 }
 
 if(correctAnswer === userAnswer) {
-    feedback = 'Correct! Well done.';
+    console.log('Correct! Well done.');
 } else {
-    feedback = "That's incorrect. Try again!";
+    console.log("That's incorrect. Try again!");
 }
 
 const containerElement = document.getElementById('quiz-container');
