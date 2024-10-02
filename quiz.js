@@ -3,5 +3,3 @@ function checkAnswer() {
      return correctAnswer;
 }
 
-const name = document.querySelector('quiz');
-
