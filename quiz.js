@@ -6,8 +6,8 @@ function checkAnswer() {
 const name = document.querySelector('quiz');
 
 function userAnswer() {
-    const value = userAnswer
-    return value;
+    const userAnswer = value
+    return userAnswer;
 }
 
 if(correctAnswer === userAnswer) {
