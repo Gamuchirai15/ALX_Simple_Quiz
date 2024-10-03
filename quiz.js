@@ -3,4 +3,4 @@ function checkAnswer() {
     return correctAnswer;
 }
 
-var userAnswer = value.submitButton;
+var userAnswer = value;
