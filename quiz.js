@@ -3,6 +3,6 @@ function checkAnswer() {
     return correctAnswer;
 }
 
-let quiz = document.querySelector(choice1)
+let quiz = document.querySelector(choice);
 
 var userAnswer = value;
