@@ -3,4 +3,6 @@ function checkAnswer() {
     return correctAnswer;
 }
 
+let quiz = document.querySelector(choice1)
+
 var userAnswer = value;
