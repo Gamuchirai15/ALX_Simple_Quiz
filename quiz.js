@@ -6,10 +6,9 @@ function checkAnswer() {
 const quiz = document.querySelector("checked");
 
 var userAnswer = value;
-
-if(userAnswer === correctAnswer){
-    feedback = ('Correct! Well done.');
+if(userAnswer === correctAnswer) {
+    FileSystem.out.println("Correct! Well done.");
 } else {
-   feedback = ("That's incorrect. Try again!");
+    FileSystem.out.println("That's incorrect. Try again!");
 }
 
