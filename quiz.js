@@ -7,3 +7,4 @@ const quiz = document.querySelector("checked");
 
 var userAnswer = value;
 ["if (userAnswer === correctAnswer)"]
+["Correct! Well done."]
