@@ -11,3 +11,4 @@ var userAnswer = value;
 ["That's incorrect. Try again!"]
 
 ["addEventListener("]
+["document.getElementById("]
