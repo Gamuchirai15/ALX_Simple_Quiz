@@ -10,5 +10,4 @@ var userAnswer = value;
 ["Correct! Well done."]
 ["That's incorrect. Try again!"]
 
-["addEventListener("]
-["document.getElementById("]
+const submitAnswer = document.getElementById("submit-answer")
